@@ -22,7 +22,7 @@ pipeline {
             }
         }
         stage('Complete') {
-            step {
+            steps {
                 echo "Everything is DONE!"
             }
         }
