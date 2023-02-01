@@ -26,5 +26,10 @@ pipeline {
                 echo "Everything is DONE!"
             }
         }
+        stage('Extra') {
+            steps {
+                echo "Hello World, this is my first branch"
+            }
+        }
     }
 }
